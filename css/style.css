@@ -1,0 +1,245 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+@font-face {
+	font-family: "Ubuntu";
+	src: url("../fonts/Ubuntu-Regular.woff2") format("woff2"), url("../fonts/Ubuntu-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Ubuntu";
+	src: url("../fonts/Ubuntu-Medium.woff2") format("woff2"), url("../fonts/Ubuntu-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Ubuntu";
+	src: url("../fonts/Ubuntu-MediumItalic.woff2") format("woff2"),
+		url("../fonts/Ubuntu-MediumItalic.woff") format("woff");
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Ubuntu";
+	src: url("../fonts/Ubuntu-Bold.woff2") format("woff2"), url("../fonts/Ubuntu-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* =================//================ */
+.wrapper {
+	min-height: 100%;
+	max-width: 1400px;
+	margin: 0px auto;
+	overflow: hidden;
+	font-family: "Ubuntu", sans-serif;
+	font-size: 20px;
+}
+/* =================//================ */
+
+.main__title {
+	font-family: "Russo One", sans-serif;
+	font-size: 26px;
+	text-align: center;
+	text-shadow: -7px 3px 0px rgba(0, 0, 0, 0.178), 2px 2px 15px rgba(206, 79, 245, 0.596);
+	margin: 0px 0px 30px 0px;
+}
+
+.big-title {
+	font-family: "Russo One", sans-serif;
+	font-size: 28px;
+	text-align: center;
+	text-shadow: -7px 3px 0px rgba(0, 0, 0, 0.178), 2px 2px 15px rgba(206, 79, 245, 0.596);
+	margin: 0px auto 20px;
+}
+
+.logo-1 {
+	display: block;
+	margin: 0px auto 20px;
+}
+
+.name-list {
+	font-size: 26px;
+	font-weight: 500;
+	font-style: italic;
+	text-align: center;
+	text-shadow: -7px 3px 0px rgba(0, 0, 0, 0.178), 2px 2px 15px rgba(206, 79, 245, 0.596);
+	margin: 0px auto 10px;
+}
+
+.list-1 {
+	font-size: 22px;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: -7px 3px 0px rgba(0, 0, 0, 0.178), 2px 2px 15px rgba(206, 79, 245, 0.596);
+	display: block;
+	padding: 5px;
+	margin: 0px auto 5px;
+}
+
+.list-2 {
+	font-size: 22px;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: -7px 3px 0px rgba(0, 0, 0, 0.178), 2px 2px 15px rgba(206, 79, 245, 0.596);
+	display: block;
+	padding: 5px;
+	margin: 0px auto 5px;
+}
+
+.list-3 {
+	font-size: 22px;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: -7px 3px 0px rgba(0, 0, 0, 0.178), 2px 2px 15px rgba(206, 79, 245, 0.596);
+	display: block;
+	padding: 5px;
+	margin: 0px auto 5px;
+}
+
+.list-4 {
+	font-size: 22px;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: -7px 3px 0px rgba(0, 0, 0, 0.178), 2px 2px 15px rgba(206, 79, 245, 0.596);
+	display: block;
+	padding: 5px;
+	margin: 0px auto 150px;
+}
+
+.block-1 {
+	font-size: 0px;
+	text-align: center;
+}
+
+.img-block-1-1 {
+	width: 400px;
+	height: 400px;
+	margin: 0px 100px 0px 0px;
+}
+
+.img-block-1-2 {
+	width: 400px;
+	height: 400px;
+	margin: 0px 100px 0px 0px;
+}
+
+.img-block-1-3 {
+	width: 400px;
+	height: 400px;
+	margin-bottom: 40px;
+}
+
+.block-1__paragraph-1-1 {
+	font-size: 20px;
+	text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4), 2px 2px 15px rgba(206, 79, 245, 0.4);
+	display: inline-block;
+	max-width: 400px;
+	margin: 0px 100px 0px 0px;
+}
+
+.block-1__paragraph-1-2 {
+	font-size: 20px;
+	text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4), 2px 2px 15px rgba(206, 79, 245, 0.4);
+	display: inline-block;
+	max-width: 400px;
+	margin: 0px 100px 0px 0px;
+}
+
+.block-1__paragraph-1-3 {
+	font-size: 20px;
+	text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4), 2px 2px 15px rgba(206, 79, 245, 0.4);
+	display: inline-block;
+	max-width: 400px;
+	margin: 0px 0px 40px 0px;
+}
+
+.block-2 {
+	font-size: 0px;
+}
+
+.img-block-2-1 {
+	width: 700px;
+	height: 500px;
+	margin: 0px 0px 20px 0px;
+}
+
+.block-2__paragraph-1 {
+	font-size: 20px;
+	text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4), 2px 2px 15px rgba(206, 79, 245, 0.4);
+	display: inline-block;
+	width: 700px;
+	margin: 0px 0px 0px 0px;
+}
+
+.block-2__paragraph-2 {
+	font-size: 20px;
+	text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4), 2px 2px 15px rgba(206, 79, 245, 0.4);
+	display: inline-block;
+	width: 700px;
+	margin: 0px 0px 0px 0px;
+}
+
+.img-block-2-2 {
+	width: 700px;
+	margin: 0px 0px 30px 0px;
+}
+
+.block-3 {
+	font-size: 0px;
+}
+
+.img-block-3 {
+	width: 650px;
+	height: 400px;
+	margin: 0px 50px 0px 0px;
+}
+
+.list__block-3 {
+	font-size: 20px;
+	text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4), 2px 2px 15px rgba(206, 79, 245, 0.4);
+	display: inline-block;
+	height: 400px;
+	width: 700px;
+	margin: 0px 0px 30px 0px;
+	overflow: auto;
+}
+
+.img-block-4 {
+	display: block;
+	width: 700px;
+	height: 400px;
+	margin: 0px auto 30px;
+}
+
+.block-4__paragraph-1 {
+	text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.7);
+	font-weight: 700;
+	text-indent: 40px;
+	margin: 0px 0px 50px 0px;
+}
+
+.span__block-4 {
+	text-decoration: underline;
+	text-shadow: -7px 3px 0px rgba(0, 0, 0, 0.178), 2px 2px 15px rgba(206, 79, 245, 0.596);
+}
+
+.img__footer-1 {
+	display: block;
+	width: 250px;
+	height: 200px;
+	margin: 0px auto 20px;
+}
